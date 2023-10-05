@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	
+	//100 den 400 e kadar 15 ile bolunebilen sayiları ekranda gosteriniz.
+	
+	
+	for(int i=100; i<400;i++)
+	{
+		
+		if(i%15==0)
+		
+		cout<<i<<endl;
+		
+	}
+	
+	
+	system("pause");
+	return 0;
+	
+}
